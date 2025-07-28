@@ -2,39 +2,27 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  color: #333;
-  background: url('https://i.postimg.cc/g0f3K7s7/db03e2d633e65ff7fae29163043b5074.jpg') no-repeat center center fixed;
+  background: url("https://i.postimg.cc/g0f3K7s7/db03e2d633e65ff7fae29163043b5074.jpg") no-repeat center center fixed;
   background-size: cover;
+  color: #333;
 }
 
 header {
-  background: rgba(231, 84, 128, 0.85); /* semi-transparent for readability */
+  background: rgba(231, 84, 128, 0.8); /* semi-transparent so bg shows */
   color: white;
   padding: 1rem;
   text-align: center;
 }
 
-h1 {
-  margin: 0;
-  font-size: 2rem;
-}
-
-nav select {
-  margin-top: 0.5rem;
-  padding: 0.4rem;
-  border-radius: 8px;
-  border: none;
-}
-
 main {
-  background: rgba(255, 255, 255, 0.8); /* adds white overlay for readability */
+  background: rgba(255, 255, 255, 0.8); /* white box effect for readability */
   margin: 2rem;
   padding: 2rem;
   border-radius: 12px;
 }
 
 footer {
-  background: rgba(231, 84, 128, 0.9);
+  background: rgba(231, 84, 128, 0.8);
   color: white;
   text-align: center;
   padding: 1rem;
