@@ -4,7 +4,76 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Devi - Women Empowerment</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url("https://i.postimg.cc/g0f3K7s7/db03e2d633e65ff7fae29163043b5074.jpg") no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+    }
+
+    header {
+      background: rgba(231, 84, 128, 0.9);
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+
+    nav select {
+      margin-top: 0.8rem;
+      padding: 0.5rem;
+      border-radius: 6px;
+      border: none;
+      font-size: 1rem;
+    }
+
+    main {
+      background: rgba(255, 255, 255, 0.85);
+      margin: 2rem auto;
+      padding: 2rem;
+      border-radius: 15px;
+      max-width: 800px;
+      text-align: center;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+
+    main h2 {
+      color: #e75480;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    main p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    footer {
+      background: rgba(231, 84, 128, 0.9);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+
+    /* Smooth fade-in animation */
+    body {
+      animation: fadeIn 1.5s ease-in;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -17,7 +86,7 @@
         <option value="ta">தமிழ் (Tamil)</option>
         <option value="bn">বাংলা (Bengali)</option>
         <option value="ml">മലയാളം (Malayalam)</option>
-        <!-- Add up to 33 languages -->
+        <!-- Add more languages here -->
       </select>
     </nav>
   </header>
@@ -25,7 +94,8 @@
   <main id="content">
     <h2 data-lang="title">Financial Freedom for Women</h2>
     <p data-lang="intro">
-      Welcome to Devi, a platform dedicated to empowering women with financial literacy and job opportunities.
+      Welcome to <strong>Devi</strong>, a platform dedicated to empowering women with financial literacy, job opportunities, and the confidence to achieve independence. 
+      Together, we rise. 🌸
     </p>
   </main>
 
